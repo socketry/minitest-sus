@@ -20,7 +20,8 @@ group :maintenance, optional: true do
 end
 
 group :test do
-	gem "rake"
+	gem "sus"
+	gem "covered"
 	
 	gem "sus-fixtures-async"
 	gem "sus-fixtures-async-http"

@@ -3,6 +3,10 @@
 # Released under the MIT License.
 # Copyright, 2026, by Samuel Williams.
 
+# These are real Minitest tests, exercised as a subprocess by the sus suite in
+# `test/minitest/sus/context.rb`. They live in a dot directory so that sus does
+# not pick them up directly.
+
 require "minitest/autorun"
 require "minitest/sus"
 
