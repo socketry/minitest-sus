@@ -88,3 +88,5 @@ The bridge is opt-in per test class. Nothing about `Minitest::Test` is patched g
 The bridge supports the fixture contract used by gems like `sus-fixtures-async` and `sus-fixtures-async-http`: module-level `include`, the `before`/`after`/`around` hooks, helper methods and `mock`.
 
 It does not implement sus's class-level context DSL (`include_context`, shared contexts, `let`, `it`, nested `describe`/`context`), as those overlap with Minitest's own test model. Write your test methods and assertions using Minitest as usual.
+
+When a test raises, Minitest captures the exception internally before the `around` chain unwinds. The fixture's `after` hook still runs (so cleanup such as stopping a server or reactor happens as normal), but it always receives `error = nil` rather than the actual exception. Fixtures that only use `after` for cleanup are unaffected; fixtures that need the failure itself will not receive it.
