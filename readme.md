@@ -2,7 +2,7 @@
 
 Provides a bridge for using [sus](https://github.com/socketry/sus) fixtures within [Minitest](https://github.com/minitest/minitest) tests, e.g. `sus-fixtures-async` and `sus-fixtures-async-http`.
 
-[![Development Status](/workflows/Test/badge.svg)](/actions?workflow=Test)
+[![Development Status](https://github.com/socketry/minitest-sus/workflows/Test/badge.svg)](https://github.com/socketry/minitest-sus/actions?workflow=Test)
 
 ## Usage
 
