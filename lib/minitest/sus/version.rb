@@ -3,7 +3,9 @@
 # Released under the MIT License.
 # Copyright, 2026, by Samuel Williams.
 
+# @namespace
 module Minitest
+	# @namespace
 	module Sus
 		VERSION = "0.1.0"
 	end
