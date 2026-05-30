@@ -9,5 +9,5 @@ metadata:
 files:
 - path: getting-started.md
   title: Getting Started
-  description: This guide explains how to use the `minitest-sus` gem to use sus fixtures
-    within Minitest tests.
+  description: This guide explains how to use the `minitest-sus` gem to use [sus](https://github.com/socketry/sus)
+    fixtures within [Minitest](https://github.com/minitest/minitest) tests.

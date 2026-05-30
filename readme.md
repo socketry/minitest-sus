@@ -8,13 +8,13 @@ Provides a bridge for using [sus](https://github.com/socketry/sus) fixtures with
 
 Please see the [project documentation](https://socketry.github.io/minitest-sus/) for more details.
 
-  - [Getting Started](https://socketry.github.io/minitest-sus/guides/getting-started/index) - This guide explains how to use the `minitest-sus` gem to use sus fixtures within Minitest tests.
+  - [Getting Started](https://socketry.github.io/minitest-sus/guides/getting-started/index) - This guide explains how to use the `minitest-sus` gem to use [sus](https://github.com/socketry/sus) fixtures within [Minitest](https://github.com/minitest/minitest) tests.
 
 ## Releases
 
 Please see the [project releases](https://socketry.github.io/minitest-sus/releases/index) for all releases.
 
-### Unreleased
+### v0.1.0
 
   - Initial implementation of the Minitest ↔ sus fixtures bridge.
 
